@@ -1,0 +1,44 @@
+// _common-button.scss
+
+.common-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    background-color: transparent;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  
+    &:focus {
+      outline: none;
+    }
+  }
+
+.primary-button {
+    @extend .common-button;
+    color: #FFB534;
+    background-color: #ffffff;
+    border-color: #FFB534;
+    &:hover {
+        color: #000000;
+        background-color: #ffffff;
+        border-color: #000000;
+    }
+}
+
+.secondary-button {
+    @extend .common-button;
+    color: #000000;
+    background-color: #ffffff;
+    border-color: #000000;
+    &:hover {
+        color: #ffffff;
+        background-color: #FFB534;
+        border-color: #ffffff;
+    }
+}
+  

@@ -1,0 +1,15 @@
+.common-input {
+    width: 100%;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.325rem;
+    border: 0.0625rem solid orange;
+    min-height: 2.5rem;
+    outline: none;
+    box-sizing: border-box;
+    &:focus {
+        border: 0.0625rem solid #ced4da;
+    }
+    &:hover {
+        border-color: #ced4da;
+    }
+}

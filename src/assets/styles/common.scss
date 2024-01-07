@@ -1,0 +1,82 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.page-container {
+    width: 100vw;
+    height: 100vh;
+    background: url('../imgs/bitcoin.jpeg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .main-container {
+        width: 75%;
+        max-width: 800px;
+        min-height: 350px;
+        background-color: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0;
+}
+
+h3 {
+    font-size: 1.25em;
+    text-align: center;
+    margin: 0;
+}
+
+h5 {
+    font-size: 1em;
+    text-align: center;
+    margin: 0;
+}
+
+h6 {
+    font-size: 0.75em;
+    text-align: center;
+    margin: 0;
+}
+
+p {
+    font-size: 0.875em;
+    text-align: center;
+    margin: 0;
+}
+
+span {
+    font-size: 0.75em;
+    text-align: center;
+    margin: 0;
+}
+
+.color-primary {
+    color: #FFB534;
+}
+
+.color-secondary {
+    color: #f1ad37;
+}

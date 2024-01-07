@@ -1,0 +1,26 @@
+.display-flex-col {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    @extend .display-flex-col;
+    background-color: white;
+    flex: .5;
+    height: 100%;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 4px 1px 10px #eeeeee;
+    z-index: 2;
+    padding: 1.5rem 2rem;
+}
+
+.value-container {
+    @extend .display-flex-col;
+    flex: .5;
+    height: 90%;
+    background-color: white;
+    border-radius: 0px 10px 10px 0px;
+}
